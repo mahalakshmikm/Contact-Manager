@@ -19,7 +19,7 @@ const AddContact = (props) => {
 
     setName("");
     setEmail("");
-
+    // thi use to navigate
     navigate("/");
   };
 
