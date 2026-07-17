@@ -1,4 +1,145 @@
-# Getting Started with Create React App
+# Contact Manager
+
+A modern Contact Management web application built with React that allows users to efficiently create, view, update, and delete contacts. The application uses Axios for API communication, React Router for navigation, and JSON Server as a mock REST API.
+
+---
+
+## Features
+
+- Add new contacts
+- View all contacts
+- Edit contact information
+- Delete contacts
+- Search and organize contacts
+- Responsive user interface
+- Client-side routing with React Router
+- REST API integration using Axios
+- UUID-based unique contact identification
+
+---
+
+## Tech Stack
+
+### Frontend
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+### Libraries
+- React Router DOM
+- Axios
+- UUID
+
+### Backend
+- JSON Server (Mock REST API)
+
+### Tools
+- Visual Studio Code
+- Git
+- GitHub
+
+---
+
+## Project Structure
+
+```
+Contact-Manager/
+│── public/
+│── src/
+│   ├── Components/
+│   ├── Services/
+│   ├── App.js
+│   ├── index.js
+│── db.json
+│── package.json
+│── README.md
+```
+
+---
+
+## Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/mahalakshmikm/Contact-Manager.git
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start JSON Server
+
+```bash
+json-server --watch db.json --port 3006
+```
+
+### Start React Application
+
+```bash
+npm start
+```
+
+Open:
+
+```
+http://localhost:3000
+```
+
+---
+
+## How It Works
+
+1. Users can create a new contact.
+2. Contact details are stored using JSON Server.
+3. Users can view all saved contacts.
+4. Existing contacts can be edited.
+5. Contacts can be deleted instantly.
+6. Axios communicates with the REST API for CRUD operations.
+
+---
+
+## Technologies Used
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Axios
+- React Router DOM
+- UUID
+- JSON Server
+
+---
+
+## Future Enhancements
+
+- User Authentication
+- Cloud Database Integration
+- Contact Groups
+- Favorite Contacts
+- Search & Filter
+- Profile Picture Upload
+- Dark Mode
+- Responsive Mobile Design
+
+---
+
+## Author
+
+**Mahalakshmi K M**
+
+GitHub: https://github.com/mahalakshmikm
+
+---
+
+## License
+
+This project is licensed under the MIT License.# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
